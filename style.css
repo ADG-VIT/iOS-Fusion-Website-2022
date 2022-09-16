@@ -22,7 +22,7 @@
 	background-color: antiquewhite;
 	height: 100vh;
 	width: 67%;
-	background-color: #0e0e0e;
+	background-color: #141219;
 	position: relative;
 }
 
@@ -136,7 +136,7 @@
 /* ------------------------------- */
 
 .containerDesc {
-	background-color: black;
+	background-color: #151915;
 	height: 100vh;
 	width: 100%;
 	display: flex;
@@ -162,7 +162,7 @@
 	justify-content: space-around;
 }
 
-.box > img {
+.containerDesc > .box > img {
 	width: 430px;
 	height: 100px;
 	padding: 10px 20px;
@@ -180,7 +180,7 @@
 /* ------------------------------- */
 
 .containerSpeaker {
-	background-color: black;
+	background-color: #171519;
 	width: 100%;
 	padding: 80px;
 }
@@ -224,4 +224,44 @@
 }
 .containerSpeaker > .bottom > #first {
 	margin-top: 50px;
+}
+
+/* ------------------------------ */
+
+.containerPartners {
+	background-color: #171516;
+	width: 100%;
+	padding: 80px;
+}
+
+.containerPartners > .heading {
+	font-weight: 800;
+	font-size: 56px;
+	line-height: 62px;
+	color: #d4d4d4;
+}
+
+.containerPartners > .partners {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 105px;
+}
+
+.partners > .box {
+	width: 260px;
+	height: 260px;
+	background: linear-gradient(
+		111.59deg,
+		rgba(134, 133, 133, 0.075) -14.12%,
+		rgba(63, 62, 62, 0.275) 92.7%
+	);
+	background-blend-mode: luminosity;
+	backdrop-filter: blur(25px);
+	border-radius: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid rgba(255, 255, 255, 0.094);
 }
