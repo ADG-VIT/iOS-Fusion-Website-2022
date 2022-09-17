@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>IOS Fusion 6.0</title>
+  <link rel="shortcut icon" type="image/png" href="assets/cursor.png" />
+  <meta name="description" content="IOS fusion " />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+
+<body class="body">
+  <div id="chameleon-page-container" class="fullpage block-main">
+    <div class="chameleon-page-content" data-namespace="index">
+      <div class="title">
+        <!-- <a href="/about/" class="fx-hover-gradient grad-menu"> -->
+        <!-- IOS Fusion 6.0 -->
+        </a>
+        <div class="main-langs">
+        </div>
+      </div>
+      <div class="menu-main-container fit-container ccenter">
+        <div class="fit-contain flex-column ccenter">
+          <a class="menu-item flex-equal font-adjust fx-hover fx-hover-neon fx-appear-blackbars">
+            <h1>IOS Fusion 6.0</h1>
+          </a>
+
+          <a class="menu-item flex-equal font-adjust fx-hover fx-hover-neon fx-appear-blackbars">
+
+          </a>
+
+          <a class="menu-item flex-equal font-adjust fx-hover fx-hover-neon fx-appear-blackbars">
+            Coming Soon
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <a class="vrbtn" href="https://www.instagram.com/adgvit/">
+      <img src="./assets/insta.svg" alt="Insta logo">
+
+    </a>
+  </div>
+  <!--<video id="placeholder-video" style="display:none">-->
+
+  <style id="loader-styles">
+    body {
+      background-color: #0d0d0d;
+    }
+
+    .fullpage,
+    .showreel-mute,
+    .headphone-warning,
+    .showreel-start,
+    .title {
+      display: none;
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -100;
+      width: 100%;
+      height: 100%;
+    }
+
+    .chameleon-loader {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: "Stolzl";
+      font-weight: 700;
+      src: url("assets/fonts/11446.otf") format("opentype");
+    }
+
+    .countdown-text {
+      position: relative;
+      font-family: "Stolzl", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.5;
+      color: transparent;
+      background: linear-gradient(to top,
+          rgba(178, 183, 195, 0.35) 0%,
+          rgba(36, 52, 84, 1) 95%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-font-smoothing: antialiased;
+      font-size: 20vmin;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .countdown-wrapper {
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <div class="fullpage chameleon-loader loading" style="z-index: 100;">
+    <div class="title">
+      IOS Fusion 6.0
+    </div>
+    <div class="countdown-wrapper">
+      <div class="countdown-text"></div>
+    </div>
+    <a class="showreel-start">
+      SKIP
+    </a>
+    <div class="showreel-mute sound-toggle">
+      <div class="icon mask headset"></div>
+      <div class="gradient-clip sound-on">ON</div>
+      <div class="gradient-clip sound-off">OFF</div>
+    </div>
+    <script>
+      ; (function () {
+        var interv,
+          i = 1
+        var dn = document.querySelector(".countdown-text")
+        var k = false
+        try {
+          k = window.localStorage.getItem("visited")
+        } catch (e) { }
+        if (k) {
+          return
+        }
+        interv = setInterval(function () {
+          dn.innerText = i < 10 ? "0" + i : i
+          window.chamCounter = i
+          i += 1
+          if (window.chamStopCounter || i > 99) {
+            clearInterval(interv)
+          }
+        }, 100)
+      })()
+    </script>
+  </div>
+
+  <div class="fullpage block-menu">
+    <div class="title stick-right">
+      <div class="go-back fx-hover fx-no-gyro">
+        <div class="icon mask back flipped fx-hover-gradient grad-arrow fx-by-parent"></div>
+      </div>
+    </div>
+    <div class="page-container center">
+      <div class="menu">
+
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="fx-gradient-backdrop grad-menu"></div>
+  <div class="fullpage block-connect">
+    <div class="title stick-left">
+      <div class="go-back fx-hover fx-no-gyro">
+        <div class="icon mask back fx-hover-gradient grad-arrow fx-by-parent"></div>
+      </div>
+    </div>
+
+
+    <div class="fx-gradient-backdrop grad-connect"></div>
+
+    <script src="assets/js/background.js" async defer></script>
+    <script src="assets/js/bundle.js" async defer></script>
+</body>
+
+</html>
