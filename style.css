@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+@import url('http://fonts.cdnfonts.com/css/axis');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -224,6 +227,197 @@
 }
 .containerSpeaker > .bottom > #first {
 	margin-top: 50px;
+}
+
+/* ------------------------------ */
+
+.timeline-container {
+	position: relative;
+	width: 1512px;
+	height: 982px;
+	background: #000000;
+	text-transform: uppercase;
+}
+.timeline-header {
+	position: absolute;
+	width: 327px;
+	height: 62px;
+	left: 80px;
+	top: 80px;
+
+	font-family: 'Monument Extended';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 56px;
+	line-height: 62px;
+	/* identical to box height, or 111% */
+
+	display: flex;
+	align-items: center;
+
+	color: #d4d4d4;
+}
+.timeline-container-box {
+	position: absolute;
+	width: 964px;
+	height: 665.78px;
+	left: 274px;
+	top: 158px;
+}
+.timeline-day-container {
+	position: absolute;
+	width: 201.89px;
+	height: 390.69px;
+	left: 74px;
+	top: 208.98px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.timeline-day {
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	left: 307.18px;
+	top: 124.95px;
+	background: #6a5acd;
+	box-shadow: inset 22px 27px 9px rgba(0, 0, 0, 0.25);
+	border-radius: 59px;
+}
+.timeline-day-text1 {
+	position: relative;
+	width: 195.73px;
+	height: 47.78px;
+
+	font-family: 'Monument Extended';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 62px;
+	/* or 124% */
+
+	display: flex;
+	align-items: center;
+
+	color: #ffffff;
+}
+
+.timeline-animation-line {
+	position: absolute;
+	width: 25.43px;
+	height: 600.28px;
+	left: 152.18px;
+	top: 44.95px;
+}
+.timeline-elipse {
+	position: absolute;
+	width: 25.43px;
+	height: 26.2px;
+	left: 152.18px;
+	top: 400px;
+	border-radius: 50%;
+	z-index: 1;
+	background: #ffffff;
+	box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
+}
+.timeline-rectangle {
+	position: absolute;
+	width: 20.04px;
+	height: 594.12px;
+	left: 155.26px;
+	top: 81.12px;
+	background: #343131;
+	border-radius: 59px;
+}
+.timeline-textbox {
+	position: absolute;
+	width: 582.56px;
+	height: 120.98px;
+	left: 185.44px;
+	top: 102.8px;
+}
+.timeline-alignment {
+	top: 260px;
+}
+.timeline-alignment1 {
+	top: 470px;
+}
+.timeline-alignment2 {
+	top: 630px;
+}
+
+.timeline-inner-textbox {
+	position: absolute;
+	width: 582.56px;
+	height: 120.98px;
+	left: 185.44px;
+	top: 2.8px;
+
+	background: rgba(217, 217, 217, 0.1);
+	backdrop-filter: blur(14px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 20px;
+}
+.timeline-txet-event {
+	position: absolute;
+	width: 403.79px;
+	height: 47.78px;
+	left: 87.8px;
+	top: 15.9px;
+
+	font-family: 'AXIS';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 62px;
+	/* or 258% */
+
+	display: flex;
+	align-items: center;
+
+	color: #ffffff;
+}
+.timeline-txet-time {
+	position: absolute;
+	width: 233.49px;
+	height: 47.78px;
+	left: 87.8px;
+	top: 45.96px;
+
+	font-family: 'Monument Extended';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 62px;
+	/* or 388% */
+
+	display: flex;
+	align-items: center;
+
+	color: #9f82f1;
+}
+.timeline-txet-venue {
+	position: absolute;
+	width: 231.95px;
+	height: 47.78px;
+	left: 87.8px;
+	top: 69.84px;
+
+	font-family: 'Monument Extended';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 62px;
+	/* or 388% */
+
+	display: flex;
+	align-items: center;
+
+	color: rgba(255, 255, 255, 0.5);
+}
+.active {
+	background: #5c4ac8;
 }
 
 /* ------------------------------ */
