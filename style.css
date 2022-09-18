@@ -1,205 +1,403 @@
 @import url('http://fonts.cdnfonts.com/css/monument-extended');
 @import url('http://fonts.cdnfonts.com/css/axis');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.timeline-container{
+
+.timeline-container {
     position: relative;
-width: 1512px;
-height: 982px;
-background: #000000;
-text-transform: uppercase;
+    width: 1512px;
+    height: 982px;
+    background: #000000;
+    text-transform: uppercase;
 }
-.timeline-header{
+
+.timeline-header {
     position: absolute;
-width: 327px;
-height: 62px;
-left: 80px;
-top: 80px;
+    width: 327px;
+    height: 62px;
+    left: 80px;
+    top: 80px;
 
-font-family: 'Monument Extended';
-font-style: normal;
-font-weight: 800;
-font-size: 56px;
-line-height: 62px;
-/* identical to box height, or 111% */
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 62px;
+    /* identical to box height, or 111% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-color: #D4D4D4;
+    color: #D4D4D4;
 }
-.timeline-container-box{
+
+.timeline-container-box {
     position: absolute;
-width: 964px;
-height: 665.78px;
-left: 274px;
-top: 158px;
+    width: 964px;
+    height: 665.78px;
+    left: 274px;
+    top: 158px;
 }
-.timeline-day-container{
+
+.timeline-day-container {
     position: absolute;
-width: 201.89px;
-height: 390.69px;
-left: 74px;
-top: 208.98px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    width: 201.89px;
+    height: 390.69px;
+    left: 74px;
+    top: 208.98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
-/* .timeline-day{
-    position: absolute;
-width: 20px;
-height: 50px;
-left: 307.18px;
-top: 124.95px;
-background: #6A5ACD;
-box-shadow: inset 22px 27px 9px rgba(0, 0, 0, 0.25);
-border-radius: 59px;
-}  */
-.timeline-day-text1{
+
+
+.timeline-day-text1 {
     position: relative;
-width: 195.73px;
-height: 47.78px;
+    width: 195.73px;
+    height: 47.78px;
 
-font-family: 'Monument Extended';
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 62px;
-/* or 124% */
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 62px;
+    /* or 124% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
-.timeline-animation-line{
+.timeline-animation-line {
     position: absolute;
-width: 25.43px;
-height: 600.28px;
-left: 152.18px;
-top: 44.95px;
+    width: 25.43px;
+    height: 600.28px;
+    left: 152.18px;
+    top: 44.95px;
 }
-.timeline-elipse{
+
+.timeline-elipse {
     position: absolute;
-width: 25.43px;
-height: 26.2px;
-left: 152.18px;
-top: 80px;
-border-radius: 50%;
-z-index: 1;
-background: #FFFFFF;
-box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
+    width: 25.43px;
+    height: 26.2px;
+    left: 152.18px;
+    top: 80px;
+    border-radius: 50%;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
 }
-.timeline-rectangle{
+
+.timeline-rectangle {
     position: absolute;
-width: 20.04px;
-height: 594.12px;
-left: 155.26px;
-top: 81.12px;
-background: #343131;
-border-radius: 59px;
+    width: 20.04px;
+    height: 594.12px;
+    left: 155.26px;
+    top: 81.12px;
+    background: #343131;
+    border-radius: 59px;
 }
-.timeline-textbox{
+
+.timeline-textbox {
     position: absolute;
-width: 582.56px;
-height: 120.98px;
-left: 185.44px;
-top: 102.8px;
+    width: 582.56px;
+    height: 120.98px;
+    left: 185.44px;
+    top: 102.8px;
 }
-.timeline-alignment{
+
+.timeline-alignment {
     top: 260px;
 }
-.timeline-alignment1{
+
+.timeline-alignment1 {
     top: 470px;
 }
-.timeline-alignment2{
+
+.timeline-alignment2 {
     top: 630px;
 }
 
-.timeline-inner-textbox{
+.timeline-inner-textbox {
     position: absolute;
-width: 582.56px;
-height: 120.98px;
-left: 185.44px;
-top: 2.8px;
+    width: 582.56px;
+    height: 120.98px;
+    left: 185.44px;
+    top: 2.8px;
 
-background: rgba(217, 217, 217, 0.1);
-backdrop-filter: blur(14px);
-/* Note: backdrop-filter has minimal browser support */
+    background: rgba(217, 217, 217, 0.1);
+    backdrop-filter: blur(14px);
+    /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 20px;
+    border-radius: 20px;
 }
-.timeline-txet-event{
+
+.timeline-txet-event {
     position: absolute;
-width: 403.79px;
-height: 47.78px;
-left: 87.8px;
-top: 15.9px;
+    width: 403.79px;
+    height: 47.78px;
+    left: 87.8px;
+    top: 15.9px;
 
-font-family: 'AXIS';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 62px;
-/* or 258% */
+    font-family: 'AXIS';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 62px;
+    /* or 258% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-.timeline-txet-time{
+
+.timeline-txet-time {
     position: absolute;
-width: 233.49px;
-height: 47.78px;
-left: 87.8px;
-top: 45.96px;
+    width: 233.49px;
+    height: 47.78px;
+    left: 87.8px;
+    top: 45.96px;
 
-font-family: 'Monument Extended';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 62px;
-/* or 388% */
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 62px;
+    /* or 388% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-color: #9F82F1;
+    color: #9F82F1;
 }
-.timeline-txet-venue{
+
+.timeline-txet-venue {
     position: absolute;
-width: 231.95px;
-height: 47.78px;
-left: 87.8px;
-top: 69.84px;
+    width: 231.95px;
+    height: 47.78px;
+    left: 87.8px;
+    top: 69.84px;
 
-font-family: 'Monument Extended';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 62px;
-/* or 388% */
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 62px;
+    /* or 388% */
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 
 }
-.active{
+
+.active {
     background: #5C4AC8;
 }
-.container{
-    position: relative;
-width: 1512px;
-height: 982px;
 
-background: #000000;
+.container {
+    position: relative;
+    width: 1512px;
+    height: 982px;
+
+    background: #000000;
+}
+
+@media (max-width:780px) {
+    
+    .timeline-header {
+        left: 40px;
+        font-size: 44px;
+    }
+    
+    .timeline-container-box {
+        position: absolute;
+        width: 964px;
+        height: 665.78px;
+        left: 74px;
+        top: 158px;
+    }
+    
+    .timeline-day-container {
+        left: 35px;
+    }
+    
+    
+    .timeline-day-text1 {
+        font-size: 35px;
+    }
+    
+    .timeline-animation-line {
+        position: absolute;
+        width: 25.43px;
+        height: 600.28px;
+        left: 92.18px;
+        top: 44.95px;
+    }
+    
+    .timeline-elipse {
+        position: absolute;
+        width: 25.43px;
+        height: 26.2px;
+        left: 92.18px;
+        top: 80px;
+        border-radius: 50%;
+        z-index: 1;
+        background: #FFFFFF;
+        box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
+    }
+    
+    .timeline-rectangle {
+        position: absolute;
+        width: 20.04px;
+        height: 594.12px;
+        left: 95.26px;
+        top: 81.12px;
+        background: #343131;
+        border-radius: 59px;
+    }
+    
+    .timeline-textbox {
+        position: absolute;
+        width: 582.56px;
+        height: 120.98px;
+        left: 100.44px;
+        top: 102.8px;
+    }
+    
+    .timeline-alignment {
+        top: 260px;
+    }
+    
+    .timeline-alignment1 {
+        top: 470px;
+    }
+    
+    .timeline-alignment2 {
+        top: 630px;
+    }
+    
+    .timeline-inner-textbox {
+        position: absolute;
+        width: 412.56px;
+        height: 120.98px;
+        left: 145.44px;
+    }
+    
+    .timeline-txet-event {
+        width: 403.79px;
+        left: 57.8px;
+        font-size: 20px;
+    }
+    
+    .timeline-txet-time {
+        width: 233.49px;
+        left: 57.8px;
+        font-size: 12px;
+    }
+    
+    .timeline-txet-venue {
+        width: 231.95px;
+        left: 57.8px;
+        font-size: 12px;
+    }
+    .active {
+        background: #5C4AC8;
+    }
+}
+
+@media (max-width:520px) {
+    .timeline-header {
+        position: absolute;
+        width: 127px;
+        height: 62px;
+        left: 20px;
+        top: 40px;
+        font-size: 36px;
+        line-height: 62px;
+    }
+
+    .timeline-container-box {
+        position: absolute;
+        width: 964px;
+        height: 665.78px;
+        left: 0px;
+        top: 108px;
+    }
+    .timeline-day-container {
+        height: 300.69px;
+        left: 14px;
+        top: 138.98px;
+    }
+
+    .timeline-day-text1 {
+        font-size: 20px;
+        line-height: 62px;
+    }
+
+    .timeline-animation-line {
+        width: 15.43px;
+        height: 100.28px;
+        left: 92.18px;
+    }
+    .timeline-elipse {
+        width: 10.43px;
+        height: 11.2px;
+        left: 15.18px;
+        top: 80px;
+    }
+    
+    .timeline-rectangle {
+        width: 10.04px;
+        height: 344.12px;
+        left: 15.26px;
+        top: 81.12px;
+        background: #343131;
+        border-radius: 59px;
+    }
+    .timeline-textbox {
+        height: 81px;
+        left: 145.44px;
+    }
+    .timeline-alignment {
+        top: 200px;
+    }
+    
+    .timeline-alignment1 {
+        top: 320px;
+    }
+    
+    .timeline-alignment2 {
+        top: 420px;
+    }
+    .timeline-inner-textbox {
+        width: 202.56px;
+        height: 80.98px;
+        left: 0px;
+    }
+    .timeline-txet-event {
+        left: 10px;
+        top: 5px;
+        font-size: 13px;
+    }
+    
+    .timeline-txet-time {
+        left: 10px;
+        top: 21px;
+        font-size: 9px;
+    }
+    
+    .timeline-txet-venue {
+        left: 10px;
+        top: 35px;
+        font-size: 10px;
+    }
 }
