@@ -50,7 +50,7 @@ flex-direction: column;
 justify-content: space-between;
 
 }
-.timeline-day{
+/* .timeline-day{
     position: absolute;
 width: 20px;
 height: 50px;
@@ -59,7 +59,7 @@ top: 124.95px;
 background: #6A5ACD;
 box-shadow: inset 22px 27px 9px rgba(0, 0, 0, 0.25);
 border-radius: 59px;
-} 
+}  */
 .timeline-day-text1{
     position: relative;
 width: 195.73px;
@@ -90,7 +90,7 @@ top: 44.95px;
 width: 25.43px;
 height: 26.2px;
 left: 152.18px;
-top: 74.95px;
+top: 80px;
 border-radius: 50%;
 z-index: 1;
 background: #FFFFFF;
@@ -195,4 +195,11 @@ color: rgba(255, 255, 255, 0.5);
 }
 .active{
     background: #5C4AC8;
+}
+.container{
+    position: relative;
+width: 1512px;
+height: 982px;
+
+background: #000000;
 }
