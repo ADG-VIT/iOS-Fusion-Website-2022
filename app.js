@@ -4,7 +4,7 @@ top.onscroll = function () { myFunction() };
 function myFunction() {
 
 
-  
+
 
   if (top.scrollY > 3150) {
     document.getElementById("active").className = "timeline-inner-textbox";
@@ -37,7 +37,7 @@ function myFunction() {
   }
 
 
-  if(responsive.matches){
+  if (responsive.matches) {
     if (top.scrollY > 2900) {
       document.getElementById("active").className = "timeline-inner-textbox";
       document.getElementById("child1").className = "timeline-inner-textbox active";
@@ -52,7 +52,7 @@ function myFunction() {
         document.getElementById("child2").className = "timeline-inner-textbox";
         document.getElementById("timeline-elipse").style.top = "420px";
       }
-       if (top.scrollY < 3150) {
+      if (top.scrollY < 3150) {
         document.getElementById("child2").className = "timeline-inner-textbox active";
         document.getElementById("child3").className = "timeline-inner-textbox";
         document.getElementById("timeline-elipse").style.top = "320px";
@@ -66,7 +66,7 @@ function myFunction() {
       document.getElementById("child1").className = "timeline-inner-textbox";
       document.getElementById("active").className = "timeline-inner-textbox active";
       document.getElementById("timeline-elipse").style.top = "80px";
-  
+
     }
   }
 

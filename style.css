@@ -212,12 +212,12 @@
 }
 
 @media (max-width:780px) {
-    
+
     .timeline-header {
         left: 40px;
         font-size: 44px;
     }
-    
+
     .timeline-container-box {
         position: absolute;
         width: 964px;
@@ -225,16 +225,16 @@
         left: 74px;
         top: 158px;
     }
-    
+
     .timeline-day-container {
         left: 35px;
     }
-    
-    
+
+
     .timeline-day-text1 {
         font-size: 35px;
     }
-    
+
     .timeline-animation-line {
         position: absolute;
         width: 25.43px;
@@ -242,7 +242,7 @@
         left: 92.18px;
         top: 44.95px;
     }
-    
+
     .timeline-elipse {
         position: absolute;
         width: 25.43px;
@@ -254,7 +254,7 @@
         background: #FFFFFF;
         box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
     }
-    
+
     .timeline-rectangle {
         position: absolute;
         width: 20.04px;
@@ -264,7 +264,7 @@
         background: #343131;
         border-radius: 59px;
     }
-    
+
     .timeline-textbox {
         position: absolute;
         width: 582.56px;
@@ -272,43 +272,44 @@
         left: 100.44px;
         top: 102.8px;
     }
-    
+
     .timeline-alignment {
         top: 260px;
     }
-    
+
     .timeline-alignment1 {
         top: 470px;
     }
-    
+
     .timeline-alignment2 {
         top: 630px;
     }
-    
+
     .timeline-inner-textbox {
         position: absolute;
         width: 412.56px;
         height: 120.98px;
         left: 145.44px;
     }
-    
+
     .timeline-txet-event {
         width: 403.79px;
         left: 57.8px;
         font-size: 20px;
     }
-    
+
     .timeline-txet-time {
         width: 233.49px;
         left: 57.8px;
         font-size: 12px;
     }
-    
+
     .timeline-txet-venue {
         width: 231.95px;
         left: 57.8px;
         font-size: 12px;
     }
+
     .active {
         background: #5C4AC8;
     }
@@ -332,6 +333,7 @@
         left: 0px;
         top: 108px;
     }
+
     .timeline-day-container {
         height: 300.69px;
         left: 14px;
@@ -348,13 +350,14 @@
         height: 100.28px;
         left: 92.18px;
     }
+
     .timeline-elipse {
         width: 10.43px;
         height: 11.2px;
         left: 15.18px;
         top: 80px;
     }
-    
+
     .timeline-rectangle {
         width: 10.04px;
         height: 344.12px;
@@ -363,38 +366,42 @@
         background: #343131;
         border-radius: 59px;
     }
+
     .timeline-textbox {
         height: 81px;
         left: 145.44px;
     }
+
     .timeline-alignment {
         top: 200px;
     }
-    
+
     .timeline-alignment1 {
         top: 320px;
     }
-    
+
     .timeline-alignment2 {
         top: 420px;
     }
+
     .timeline-inner-textbox {
         width: 202.56px;
         height: 80.98px;
         left: 0px;
     }
+
     .timeline-txet-event {
         left: 10px;
         top: 5px;
         font-size: 13px;
     }
-    
+
     .timeline-txet-time {
         left: 10px;
         top: 21px;
         font-size: 9px;
     }
-    
+
     .timeline-txet-venue {
         left: 10px;
         top: 35px;
