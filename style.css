@@ -81,7 +81,17 @@
     left: 152.18px;
     top: 44.95px;
 }
-
+.timeline-day {
+    position: absolute;
+    width: 20px;
+    height: 26.2px;
+    z-index: 1;
+    left: 155px;
+    top: 80px;
+    background: #6A5ACD;
+    box-shadow: inset 22px 27px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+}
 .timeline-elipse {
     position: absolute;
     width: 25.43px;
@@ -89,7 +99,7 @@
     left: 152.18px;
     top: 80px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
     background: #FFFFFF;
     box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
 }
