@@ -356,7 +356,7 @@ a {
 	left: 152.18px;
 	top: 400px;
 	border-radius: 50%;
-	z-index: 1;
+	z-index: 2;
 	background: #ffffff;
 	box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
 }
@@ -370,7 +370,17 @@ a {
 	background: #343131;
 	border-radius: 59px;
 }
-
+.timeline-day {
+    position: absolute;
+    width: 20px;
+    height: 26.2px;
+    z-index: 1;
+    left: 155px;
+    top: 80px;
+    background: #6A5ACD;
+    box-shadow: inset 22px 27px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+}
 .timeline-textbox {
 	position: absolute;
 	width: 582.56px;
@@ -468,6 +478,117 @@ a {
 	background: #5c4ac8;
 }
 
+@media (max-width:780px) {
+
+    .timeline-header {
+        left: 40px;
+        font-size: 44px;
+    }
+
+    .timeline-container-box {
+        position: absolute;
+        width: 964px;
+        height: 665.78px;
+        left: 74px;
+        top: 158px;
+    }
+
+    .timeline-day-container {
+        left: 35px;
+    }
+
+
+    .timeline-day-text1 {
+        font-size: 35px;
+    }
+
+    .timeline-animation-line {
+        position: absolute;
+        width: 25.43px;
+        height: 600.28px;
+        left: 92.18px;
+        top: 44.95px;
+    }
+
+    .timeline-elipse {
+        position: absolute;
+        width: 25.43px;
+        height: 26.2px;
+        left: 92.18px;
+        top: 80px;
+        border-radius: 50%;
+        z-index: 2;
+        background: #FFFFFF;
+        box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .timeline-rectangle {
+        position: absolute;
+        width: 20.04px;
+        height: 594.12px;
+        left: 95.26px;
+        top: 81.12px;
+        background: #343131;
+        border-radius: 59px;
+    }
+	.timeline-day{
+		left: 92.18px;
+		width: 25.43px;
+		/* width: 10.04px; */
+		height: 11.2px;
+	}
+
+
+    .timeline-textbox {
+        position: absolute;
+        width: 582.56px;
+        height: 120.98px;
+        left: 100.44px;
+        top: 102.8px;
+    }
+
+    .timeline-alignment {
+        top: 260px;
+    }
+
+    .timeline-alignment1 {
+        top: 470px;
+    }
+
+    .timeline-alignment2 {
+        top: 630px;
+    }
+
+    .timeline-inner-textbox {
+        position: absolute;
+        width: 412.56px;
+        height: 120.98px;
+        left: 145.44px;
+    }
+
+    .timeline-txet-event {
+        width: 403.79px;
+        left: 57.8px;
+        font-size: 20px;
+    }
+
+    .timeline-txet-time {
+        width: 233.49px;
+        left: 57.8px;
+        font-size: 12px;
+    }
+
+    .timeline-txet-venue {
+        width: 231.95px;
+        left: 57.8px;
+        font-size: 12px;
+    }
+
+    .active {
+        background: #5C4AC8;
+    }
+}
+
 @media (max-width: 520px) {
 	.timeline-header {
 		position: absolute;
@@ -518,6 +639,11 @@ a {
 		top: 81.12px;
 		background: #343131;
 		border-radius: 59px;
+	}
+	.timeline-day{
+		left: 15.26px;
+		width: 10.04px;
+		height: 11.2px;
 	}
 
 	.timeline-textbox {
