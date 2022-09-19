@@ -26,17 +26,17 @@
 		<title>iOSFusion</title>
 	</head>
 	<body>
-		<div class="containerHome">
+		<div class="containerHome" id="top">
 			<div class="containerLeft">
 				<div class="navbar">
-					<img src="../assets/Images/adglogo.png" alt="" />
+					<a href="https://adgvit.com/" target="_blank"><img src="../assets/Images/adglogo.png" alt="" /></a>
 					<div class="options">
-						<div class="home"><a href="#home">HOME</a></div>
-						<div class="about"><a href="#about">ABOUT</a></div>
-						<div class="speakers">SPEAKERS</div>
-						<div class="prize">PRIZE POOL</div>
-						<div class="speakers">SPEAKERS</div>
-						<div class="faqn">FAQ</div>
+						<div id="navbarLinks" class="home"><a href="#home">HOME</a></div>
+						<div id="navbarLinks" class="about"><a href="#about">ABOUT</a></div>
+						<div id="navbarLinks" class="speakers"><a href="#speakersSection">SPEAKERS</a></div>
+						<div id="navbarLinks" class="prize">PRIZE POOL</div>
+						<div id="navbarLinks" class="speakers">SPEAKERS</div>
+						<div id="navbarLinks" class="faqn"><a href="#faqSection">FAQ SECTION</a></div>
 					</div>
 				</div>
 				<div class="main" id="home">
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="containerSpeaker">
+		<div class="containerSpeaker" id="speakersSection">
 			<div class="heading">SPEAKERS</div>
 			<div class="bottom">
 				<div class="text1">
@@ -160,7 +160,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="faq-container">
+		<div class="faq-container" id="faqSection">
 			<h1>FAQ</h1>
 			<div class="faq active">
 				<h3 class="faq-title">
@@ -312,12 +312,11 @@
 					<div class="footer_para_up">
 						<div class="line"></div>
 						<div class="line-up">
-							<a href="#home">
+							<a href="#top">
 								<img
 									class="footer_button_img"
 									id="f-btn"
 									src="./assets/Images/up.svg"
-									onclick="topFunction()"
 								/>
 							</a>
 						</div>
