@@ -590,6 +590,108 @@ a {
 }
 
 @media (max-width: 520px) {
+
+	.timeline-container {
+	height: 630px;
+	}
+	.timeline-header {
+		position: absolute;
+		width: 127px;
+		height: 62px;
+		left: 20px;
+		top: 40px;
+		font-size: 36px;
+		line-height: 62px;
+	}
+
+	.timeline-container-box {
+		position: absolute;
+		width: 964px;
+		height: 565.78px;
+		left: 0px;
+		top: 108px;
+	}
+
+	.timeline-day-container {
+		height: 300.69px;
+		left: 14px;
+		top: 138.98px;
+	}
+
+	.timeline-day-text1 {
+		font-size: 20px;
+		line-height: 62px;
+	}
+
+	.timeline-animation-line {
+		width: 15.43px;
+		height: 100.28px;
+		left: 92.18px;
+	}
+
+	.timeline-elipse {
+		width: 10.43px;
+		height: 11.2px;
+		left: 15.18px;
+		top: 80px;
+	}
+
+	.timeline-rectangle {
+		width: 10.04px;
+		height: 344.12px;
+		left: 15.26px;
+		top: 81.12px;
+		background: #343131;
+		border-radius: 59px;
+	}
+	.timeline-day{
+		left: 15.26px;
+		width: 10.04px;
+		height: 11.2px;
+	}
+
+	.timeline-textbox {
+		height: 81px;
+		left: 145.44px;
+	}
+
+	.timeline-alignment {
+		top: 200px;
+	}
+
+	.timeline-alignment1 {
+		top: 320px;
+	}
+
+	.timeline-alignment2 {
+		top: 420px;
+	}
+
+	.timeline-inner-textbox {
+		width: 202.56px;
+		height: 80.98px;
+		left: 0px;
+	}
+
+	.timeline-txet-event {
+		left: 10px;
+		top: 5px;
+		font-size: 13px;
+	}
+
+	.timeline-txet-time {
+		left: 10px;
+		top: 21px;
+		font-size: 9px;
+	}
+
+	.timeline-txet-venue {
+		left: 10px;
+		top: 35px;
+		font-size: 10px;
+	}
+}
+@media (max-width: 350px) {
 	.timeline-header {
 		position: absolute;
 		width: 127px;
