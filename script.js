@@ -51,7 +51,7 @@ top.onscroll = function () {
 	myFunction();
 };
 function myFunction() {
-	if (top.scrollY > 2250) {
+	if (top.scrollY > 2350) {
 		document.getElementById('active').className = 'timeline-inner-textbox';
 		document.getElementById('child1').className =
 			'timeline-inner-textbox active';
@@ -95,13 +95,13 @@ function myFunction() {
 	}
 
 	if (responsive.matches) {
-		if (top.scrollY > 2100) {
+		if (top.scrollY > 2600) {
 			document.getElementById('active').className = 'timeline-inner-textbox';
 			document.getElementById('child1').className =
 				'timeline-inner-textbox active';
 			document.getElementById('timeline-elipse').style.top = '200px';
 			document.getElementById('timeline-scroll').style.height = '131.2px';
-			if (top.scrollY > 2200) {
+			if (top.scrollY > 2700) {
 				document.getElementById('child2').className =
 					'timeline-inner-textbox active';
 				document.getElementById('child1').className =
@@ -109,7 +109,7 @@ function myFunction() {
 				document.getElementById('timeline-elipse').style.top = '320px';
 				document.getElementById('timeline-scroll').style.height = '251.2px';
 			}
-			if (top.scrollY > 2350) {
+			if (top.scrollY > 2850) {
 				document.getElementById('child3').className =
 					'timeline-inner-textbox active';
 				document.getElementById('child2').className =
@@ -117,7 +117,7 @@ function myFunction() {
 				document.getElementById('timeline-elipse').style.top = '420px';
 				document.getElementById('timeline-scroll').style.height = '351.2px';
 			}
-			if (top.scrollY < 2350) {
+			if (top.scrollY < 2850) {
 				document.getElementById('child2').className =
 					'timeline-inner-textbox active';
 				document.getElementById('child3').className =
@@ -126,14 +126,14 @@ function myFunction() {
 				document.getElementById('timeline-scroll').style.height = '251.2px';
 			}
 		}
-		if (top.scrollY < 2200) {
+		if (top.scrollY < 2700) {
 			document.getElementById('child1').className =
 				'timeline-inner-textbox active';
 			document.getElementById('child2').className = 'timeline-inner-textbox';
 			document.getElementById('timeline-elipse').style.top = '200px';
 			document.getElementById('timeline-scroll').style.height = '131.2px';
 		}
-		if (top.scrollY < 2100) {
+		if (top.scrollY < 2600) {
 			document.getElementById('child1').className = 'timeline-inner-textbox';
 			document.getElementById('active').className =
 				'timeline-inner-textbox active';
