@@ -403,7 +403,7 @@ a {
 .containerSpeaker>.desktop>.heading {
 	font-weight: 800;
 	font-size: 56px;
-	line-height: 62px;
+	
 	color: #d4d4d4;
 	font-family: 'Monument Extended';
 	letter-spacing: 2px;
@@ -454,7 +454,7 @@ a {
 	.containerSpeaker>.tablet>.heading {
 		font-weight: 800;
 		font-size: 36px;
-		line-height: 62px;
+		
 		color: #d4d4d4;
 		font-family: 'Monument Extended';
 		letter-spacing: 2px;
@@ -542,7 +542,7 @@ a {
 	font-style: normal;
 	font-weight: 800;
 	font-size: 56px;
-	line-height: 62px;
+	
 	/* identical to box height, or 111% */
 
 	display: flex;
@@ -591,7 +591,7 @@ a {
 	font-style: normal;
 	font-weight: 800;
 	font-size: 50px;
-	line-height: 62px;
+	
 	/* or 124% */
 
 	display: flex;
@@ -678,16 +678,16 @@ a {
 
 .timeline-txet-event {
 	position: absolute;
-	width: 403.79px;
-	height: 47.78px;
-	left: 87.8px;
-	top: 15.9px;
+	width: 503.79px;
+	/* height: auto; */
+	left: 70.8px;
+	top: 7.9px;
 
 	font-family: 'AXIS';
 	font-style: normal;
 	font-weight: 800;
-	font-size: 24px;
-	line-height: 62px;
+	font-size: 20px;
+	
 	/* or 258% */
 
 	display: flex;
@@ -700,14 +700,14 @@ a {
 	position: absolute;
 	width: 233.49px;
 	height: 47.78px;
-	left: 87.8px;
-	top: 45.96px;
+	left: 70.8px;
+	top: 64.96px;
 
 	font-family: 'Monument Extended';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 62px;
+	
 	/* or 388% */
 
 	display: flex;
@@ -720,14 +720,14 @@ a {
 	position: absolute;
 	width: 231.95px;
 	height: 47.78px;
-	left: 87.8px;
-	top: 69.84px;
+	left: 70.8px;
+	top: 80.84px;
 
 	font-family: 'Monument Extended';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 62px;
+	
 	/* or 388% */
 
 	display: flex;
@@ -827,9 +827,9 @@ a {
 	}
 
 	.timeline-txet-event {
-		width: 403.79px;
+		width: 303.79px;
 		left: 57.8px;
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.timeline-txet-time {
@@ -862,7 +862,7 @@ a {
 		left: 20px;
 		top: 40px;
 		font-size: 36px;
-		line-height: 62px;
+		
 	}
 
 	.timeline-container-box {
@@ -881,7 +881,7 @@ a {
 
 	.timeline-day-text1 {
 		font-size: 20px;
-		line-height: 62px;
+		
 	}
 
 	.timeline-animation-line {
@@ -937,19 +937,20 @@ a {
 
 	.timeline-txet-event {
 		left: 10px;
+		width: 180px;
 		top: 5px;
-		font-size: 13px;
+		font-size: 10px;
 	}
 
 	.timeline-txet-time {
 		left: 10px;
-		top: 21px;
+		top: 35px;
 		font-size: 9px;
 	}
 
 	.timeline-txet-venue {
 		left: 10px;
-		top: 35px;
+		top: 45px;
 		font-size: 10px;
 	}
 }
@@ -962,7 +963,7 @@ a {
 		left: 20px;
 		top: 40px;
 		font-size: 36px;
-		line-height: 62px;
+		
 	}
 
 	.timeline-container-box {
@@ -981,7 +982,7 @@ a {
 
 	.timeline-day-text1 {
 		font-size: 20px;
-		line-height: 62px;
+		
 	}
 
 	.timeline-animation-line {
@@ -1030,7 +1031,7 @@ a {
 	}
 
 	.timeline-inner-textbox {
-		width: 202.56px;
+		width: 170.56px;
 		height: 80.98px;
 		left: 0px;
 	}
@@ -1038,19 +1039,20 @@ a {
 	.timeline-txet-event {
 		left: 10px;
 		top: 5px;
-		font-size: 13px;
+		width: 150px;
+		font-size: 8px;
 	}
 
 	.timeline-txet-time {
 		left: 10px;
-		top: 21px;
-		font-size: 9px;
+		top: 30px;
+		font-size: 8px;
 	}
 
 	.timeline-txet-venue {
 		left: 10px;
-		top: 35px;
-		font-size: 10px;
+		top: 45px;
+		font-size: 8px;
 	}
 }
 
@@ -1068,7 +1070,7 @@ a {
 	letter-spacing: 2px;
 	font-weight: 800;
 	font-size: 56px;
-	line-height: 62px;
+	
 	color: #d4d4d4;
 	text-align: left;
 }
