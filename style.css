@@ -740,6 +740,11 @@ a {
 	background: #5c4ac8;
 }
 
+
+.hitachi,.hackclub{
+	width: 220px;
+}
+
 @media (max-width: 780px) {
 	.timeline-header {
 		left: 40px;
