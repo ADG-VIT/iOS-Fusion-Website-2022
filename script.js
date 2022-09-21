@@ -59,7 +59,7 @@ function myFunction() {
 			'timeline-inner-textbox active';
 		document.getElementById('timeline-elipse').style.top = '260px';
 		document.getElementById('timeline-scroll').style.height = '206.2px';
-		if (top.scrollY > 2400) {
+		if (top.scrollY >= 2400) {
 			document.getElementById('child2').className =
 				'timeline-inner-textbox active';
 			document.getElementById('child1').className = 'timeline-inner-textbox';
@@ -88,13 +88,60 @@ function myFunction() {
 		document.getElementById('timeline-elipse').style.top = '260px';
 		document.getElementById('timeline-scroll').style.height = '206.2px';
 	}
-	if (top.scrollY < 2250) {
+	if (top.scrollY < 2350) {
 		document.getElementById('child1').className = 'timeline-inner-textbox';
 		document.getElementById('active').className =
 			'timeline-inner-textbox active';
 		document.getElementById('timeline-elipse').style.top = '80px';
 		document.getElementById('timeline-scroll').style.height = '26.2px';
 	}
+
+
+	if (responsi.matches) {
+		if (top.scrollY > 3200) {
+			document.getElementById('active').className = 'timeline-inner-textbox';
+			document.getElementById('child1').className =
+				'timeline-inner-textbox active';
+			document.getElementById('timeline-elipse').style.top = '260px';
+			document.getElementById('timeline-scroll').style.height = '206.2px';
+			if (top.scrollY >= 3250) {
+				document.getElementById('child2').className =
+					'timeline-inner-textbox active';
+				document.getElementById('child1').className = 'timeline-inner-textbox';
+				document.getElementById('timeline-elipse').style.top = '470px';
+				document.getElementById('timeline-scroll').style.height = '416.2px';
+			}
+			if (top.scrollY >3500) {
+				document.getElementById('child3').className =
+					'timeline-inner-textbox active';
+				document.getElementById('child2').className = 'timeline-inner-textbox';
+				document.getElementById('timeline-elipse').style.top = '650px';
+				document.getElementById('timeline-scroll').style.height = '596.2px';
+			}
+			if (top.scrollY < 3500) {
+				document.getElementById('child2').className =
+					'timeline-inner-textbox active';
+				document.getElementById('child3').className = 'timeline-inner-textbox';
+				document.getElementById('timeline-elipse').style.top = '470px';
+				document.getElementById('timeline-scroll').style.height = '416.2px';
+			}
+		}
+		if (top.scrollY < 3250) {
+			document.getElementById('child1').className =
+				'timeline-inner-textbox active';
+			document.getElementById('child2').className = 'timeline-inner-textbox';
+			document.getElementById('timeline-elipse').style.top = '260px';
+			document.getElementById('timeline-scroll').style.height = '206.2px';
+		}
+		if (top.scrollY < 3200) {
+			document.getElementById('child1').className = 'timeline-inner-textbox';
+			document.getElementById('active').className =
+				'timeline-inner-textbox active';
+			document.getElementById('timeline-elipse').style.top = '80px';
+			document.getElementById('timeline-scroll').style.height = '26.2px';
+		}
+	}
+
 
 	if (responsive.matches) {
 		if (top.scrollY > 2600) {
@@ -195,6 +242,9 @@ function myFunction() {
 
 myFunction(responsive); // Call listener function at run time
 responsive.addListener(myFunction); // Attach listener function on state changes
+
+myFunction(responsiv); // Call listener function at run time
+responsiv.addListener(myFunction); // Attach listener function on state changes
 
 myFunction(responsiv); // Call listener function at run time
 responsiv.addListener(myFunction); // Attach listener function on state changes
