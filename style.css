@@ -526,7 +526,7 @@ a {
 
 .timeline-container {
 	position: relative;
-	/* width: 1512px; */
+	width: 100%;
 	height: 982px;
 	background-image: url('./assets/Images/glassbg.png');
 	background-color: #141219;
@@ -559,7 +559,7 @@ a {
 	/* width: 964px; */
 	height: 665.78px;
 	/* left: 274px; */
-	/* top: 158px; */
+	top: 158px;
 }
 
 .timeline-day-container {
@@ -892,34 +892,34 @@ a {
 	.timeline-animation-line {
 		width: 15.43px;
 		height: 100.28px;
-		left: 92.18px;
+		left: 85.18px;
 	}
 
 	.timeline-elipse {
 		width: 10.43px;
 		height: 11.2px;
-		left: 15.18px;
+		left: 8.18px;
 		top: 80px;
 	}
 
 	.timeline-rectangle {
 		width: 10.04px;
 		height: 344.12px;
-		left: 15.26px;
+		left: 8.26px;
 		top: 81.12px;
 		background: #343131;
 		border-radius: 59px;
 	}
 
 	.timeline-day {
-		left: 15.26px;
+		left: 8.26px;
 		width: 10.04px;
 		height: 11.2px;
 	}
 
 	.timeline-textbox {
 		height: 81px;
-		left: 145.44px;
+		left: 138.44px;
 	}
 
 	.timeline-alignment {
@@ -961,9 +961,12 @@ a {
 }
 
 @media (max-width: 350px) {
+	.timeline-container {
+		width: 100%;
+	}
 	.timeline-header {
 		position: absolute;
-		width: 127px;
+		/* width: 127px; */
 		height: 62px;
 		left: 20px;
 		top: 40px;
@@ -973,7 +976,7 @@ a {
 
 	.timeline-container-box {
 		position: absolute;
-		width: 964px;
+		/* width: 964px; */
 		height: 665.78px;
 		left: 0px;
 		top: 108px;
@@ -991,7 +994,7 @@ a {
 	}
 
 	.timeline-animation-line {
-		width: 15.43px;
+		width: 8.43px;
 		height: 100.28px;
 		left: 92.18px;
 	}
@@ -999,28 +1002,28 @@ a {
 	.timeline-elipse {
 		width: 10.43px;
 		height: 11.2px;
-		left: 15.18px;
+		left: 8.18px;
 		top: 80px;
 	}
 
 	.timeline-rectangle {
 		width: 10.04px;
 		height: 344.12px;
-		left: 15.26px;
+		left: 8.26px;
 		top: 81.12px;
 		background: #343131;
 		border-radius: 59px;
 	}
 
 	.timeline-day {
-		left: 15.26px;
+		left: 8.26px;
 		width: 10.04px;
 		height: 11.2px;
 	}
 
 	.timeline-textbox {
 		height: 81px;
-		left: 145.44px;
+		left: 130.44px;
 	}
 
 	.timeline-alignment {
