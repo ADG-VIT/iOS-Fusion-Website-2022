@@ -531,6 +531,7 @@ a {
 	background-image: url('./assets/Images/glassbg.png');
 	background-color: #141219;
 	text-transform: uppercase;
+	padding: 30%;
 }
 
 .timeline-header {
@@ -755,8 +756,6 @@ a {
 	}
 
 	.timeline-container-box {
-		position: absolute;
-		/* width: 964px; */
 		height: 665.78px;
 		left: 74px;
 		top: 158px;
@@ -771,33 +770,16 @@ a {
 	}
 
 	.timeline-animation-line {
-		position: absolute;
-		width: 25.43px;
-		height: 600.28px;
 		left: 92.18px;
-		top: 44.95px;
 	}
 
 	.timeline-elipse {
-		position: absolute;
-		width: 25.43px;
-		height: 26.2px;
 		left: 92.18px;
 		top: 80px;
-		border-radius: 50%;
-		z-index: 2;
-		background: #ffffff;
-		box-shadow: inset 0px 0px 9px 10px rgba(0, 0, 0, 0.25);
 	}
 
 	.timeline-rectangle {
-		position: absolute;
-		width: 20.04px;
-		height: 594.12px;
 		left: 95.26px;
-		top: 81.12px;
-		background: #343131;
-		border-radius: 59px;
 	}
 
 	.timeline-day {
@@ -806,31 +788,8 @@ a {
 		/* width: 10.04px; */
 		height: 11.2px;
 	}
-
-	.timeline-textbox {
-		position: absolute;
-		/* width: 582.56px; */
-		height: 120.98px;
-		left: 100.44px;
-		top: 102.8px;
-	}
-
-	.timeline-alignment {
-		top: 260px;
-	}
-
-	.timeline-alignment1 {
-		top: 470px;
-	}
-
-	.timeline-alignment2 {
-		top: 630px;
-	}
-
 	.timeline-inner-textbox {
-		position: absolute;
 		width: 412.56px;
-		height: 120.98px;
 		left: 145.44px;
 	}
 
@@ -862,9 +821,7 @@ a {
 	}
 
 	.timeline-header {
-		position: absolute;
 		width: 127px;
-		height: 62px;
 		left: 20px;
 		top: 40px;
 		font-size: 36px;
@@ -872,7 +829,6 @@ a {
 	}
 
 	.timeline-container-box {
-		position: absolute;
 		height: 565.78px;
 		left: 0px;
 		top: 108px;
@@ -907,8 +863,6 @@ a {
 		height: 344.12px;
 		left: 8.26px;
 		top: 81.12px;
-		background: #343131;
-		border-radius: 59px;
 	}
 
 	.timeline-day {
@@ -965,9 +919,6 @@ a {
 		width: 100%;
 	}
 	.timeline-header {
-		position: absolute;
-		/* width: 127px; */
-		height: 62px;
 		left: 20px;
 		top: 40px;
 		font-size: 36px;
@@ -975,9 +926,6 @@ a {
 	}
 
 	.timeline-container-box {
-		position: absolute;
-		/* width: 964px; */
-		height: 665.78px;
 		left: 0px;
 		top: 108px;
 	}
@@ -1010,9 +958,6 @@ a {
 		width: 10.04px;
 		height: 344.12px;
 		left: 8.26px;
-		top: 81.12px;
-		background: #343131;
-		border-radius: 59px;
 	}
 
 	.timeline-day {
@@ -1030,36 +975,21 @@ a {
 		top: 200px;
 	}
 
-	.timeline-alignment1 {
-		top: 320px;
-	}
-
-	.timeline-alignment2 {
-		top: 420px;
-	}
-
 	.timeline-inner-textbox {
 		width: 170.56px;
-		height: 80.98px;
-		left: 0px;
 	}
 
 	.timeline-txet-event {
-		left: 10px;
-		top: 5px;
 		width: 150px;
 		font-size: 8px;
 	}
 
 	.timeline-txet-time {
-		left: 10px;
 		top: 30px;
 		font-size: 8px;
 	}
 
 	.timeline-txet-venue {
-		left: 10px;
-		top: 45px;
 		font-size: 8px;
 	}
 }
