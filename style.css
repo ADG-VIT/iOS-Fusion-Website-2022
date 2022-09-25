@@ -17,6 +17,10 @@
 	background-color: #000;
 }
 
+#main_icon {
+	height: 60px;
+}
+
 /* -------------------------------- */
 
 a {
@@ -1300,8 +1304,8 @@ h1 {
 }
 
 .div_two {
-	height: 215px;
-	width: 14vw;
+	/* height: 215px; */
+	width: 25vw;
 }
 
 .div_three .icons a {
@@ -1489,7 +1493,7 @@ h1 {
 		flex-direction: column;
 		align-self: flex-start;
 		width: max-content;
-		padding-left: 2.4em;
+		padding-left: 2.6em;
 	}
 
 	.footer_up .h4 {
@@ -1504,7 +1508,7 @@ h1 {
 	}
 
 	.links p {
-		line-height: 15px;
+		line-height: 25px;
 		width: 200%;
 	}
 }
