@@ -801,7 +801,7 @@ a {
 
 	.timeline-container-box {
 		height: 665.78px;
-		left: 74px;
+		left: 14px;
 		top: 158px;
 	}
 
@@ -836,22 +836,23 @@ a {
 
 	.timeline-inner-textbox {
 		width: 412.56px;
-		left: 145.44px;
+		left: 75.44px;
+		height: 135px;
 
 	}
 
 	.timeline-txet-event {
 		width: 303.79px;
 		left: 57.8px;
-		font-size: 30px;
-		font-family: 'Josefin Sans', sans-serif;
+		line-height: 1;
 		text-transform: none;
-		line-height: 1.5;
-		letter-spacing: normal;
+		
 	}
 
 	.timeline-txet-venue {
+		left: 57.8px;
 		text-transform: capitalize;
+		top: 91px;
 	}
 
 	.timeline-txet-time {
@@ -860,6 +861,7 @@ a {
 		font-size: 12px;
 		/* font-family: 'Poppins'; */
 		font-family: 'Josefin Sans', sans-serif;
+		top: 75px;
 	}
 
 	.active {
