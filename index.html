@@ -23,6 +23,7 @@
 			integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
 		<link rel="shortcut icon" href="./assets/Images/meta-adg.png" />
 		<title>iOSFusion</title>
 	</head>
@@ -68,33 +69,33 @@
 					</div>
 					<div class="buttons">
 						<div class="explore">
-							<a href="https://discord.gg/q4qQjpjB" target="_blank"
-								>DISCORD LINK</a
+							<a href="https://adgvit.com/" target="_blank"
+								>ADG WEBSITE</a
 							>
 						</div>
 						<!-- <div class="calendar">
 							<img src="./assets//Images/Vector.png" />
 							<div>ADD TO CALENDAR</div>
 						</div> -->
-						<div title="Add to Calendar" class="addeventatc">
-							ADD TO CALENDAR
-							<span class="start">09/30/2022 10:30 AM</span>
-							<span class="end">10/01/2022 06:00 PM</span>
-							<span class="timezone">Asia/Kolkata</span>
-							<span class="title">iOS Fusion 6.0 by ADG-VIT</span>
-							<span class="description"
-								>App development has never been easier because it's the
-								time of the year when adg comes back with ios fusion
-								6.0. A two day intricate workshop to help you start with
-								ios development. Breaking the myth that Mac is needed
-								for ios development we are here to help the non Mac to
-								start their journey of ios development and help them to
-								make their fully functional ios application.</span
-							>
-							<span class="location">location</span>
-							<span class="organizer">ADG-VIT</span>
-						</div>
-					</div>
+
+<button  id="default-button" style="background: transparent; border: none;">
+						 <div class="addevent">
+							<img src="./assets/Images/sensor-icon.png" height="25px" alt=""><span> ADD TO CALENDAR</span></div>
+					</div></button>
+					<script type="application/javascript">
+						const config = {
+						  name: "Reminder to star the add to calendar button repo",
+						  description: "Check out the maybe easiest way to include add to calendar buttons to your website at:<br>→ [url]https://github.com/add2cal/add-to-calendar-button[/url]",
+						  startDate: "2022-09-30",
+						  endDate: "2022-10-01",
+						  options: ["Apple", "Google", "iCal", "Microsoft365", "Outlook.com", "MicrosoftTeams", "Yahoo"],
+						  timeZone: "Asia/Kolkata",
+						  trigger: "click",
+						  iCalFileName: "Reminder-Event",
+						};
+						const button = document.querySelector('#default-button');
+						button.addEventListener('click', () => atcb_action(config, button));
+					  </script>
 					<div class="tabview">
 						<img src="./assets/Images/IphEmp.png" alt="" />
 					</div>
@@ -186,7 +187,7 @@
 				<div class="timeline-textbox">
 					<div class="timeline-inner-textbox active" id="active">
 						<div class="timeline-txet-event">
-							event 1: Welcome Address, Introduction and Speaker Talk
+							Event 1: Welcome Address, Introduction and Speaker Talk
 							(Faiz ulla Shairef)
 						</div>
 						<div class="timeline-txet-time">9:45AM to 1:00PM</div>
@@ -196,7 +197,7 @@
 				<div class="timeline-textbox timeline-alignment">
 					<div class="timeline-inner-textbox" id="child1">
 						<div class="timeline-txet-event">
-							event 1:Session on iOS Fusion and Speaker Talk (Fahreen
+							Event 1:Session on iOS Fusion and Speaker Talk (Fahreen
 							Ahmad)
 						</div>
 						<div class="timeline-txet-time">2:00PM to 5:00PM</div>
@@ -206,7 +207,7 @@
 				<div class="timeline-textbox timeline-alignment1">
 					<div class="timeline-inner-textbox" id="child2">
 						<div class="timeline-txet-event">
-							event 2: Virtual meet with international speaker from
+							Event 2: Virtual meet with international speaker from
 							Apple, California and Mini Quest
 						</div>
 						<div class="timeline-txet-time">9:00AM to 1:00PM</div>
@@ -216,7 +217,7 @@
 				<div class="timeline-textbox timeline-alignment2">
 					<div class="timeline-inner-textbox" id="child3">
 						<div class="timeline-txet-event">
-							event 2: 1st review and doubt session, Final review and
+							Event 2: 1st review and doubt session, Final review and
 							Project Showcase and ending ceremony
 						</div>
 						<div class="timeline-txet-time">2:00PM to 5:00PM</div>
@@ -449,6 +450,6 @@
 			</div>
 		</section>
 	</body>
+	<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1" async defer></script>
 	<script src="script.js"></script>
-	<script src="calendar.js"></script>
 </html>

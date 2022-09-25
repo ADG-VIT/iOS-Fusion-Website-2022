@@ -1,6 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/monument-extended');
 @import url('http://fonts.cdnfonts.com/css/axis');
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
 
 * {
 	margin: 0;
@@ -132,12 +133,11 @@ a {
 	cursor: pointer;
 }
 
-.buttons > .addeventatc {
+.addevent {
 	cursor: pointer;
 	margin-left: 30px;
-	width: 220px;
+	/* width: 220px; */
 	display: flex;
-	flex-direction: row;
 	font-family: 'AXIS';
 	font-weight: 700;
 	align-items: center;
@@ -146,6 +146,9 @@ a {
 	border: none;
 	color: white;
 	white-space: nowrap;
+}
+.addevent span{
+	margin-left: 10px;
 }
 
 .main > .time {
@@ -198,10 +201,17 @@ a {
 }
 
 @media (max-width: 920px) {
+	
+	*{
+		font-family: 'Poppins';
+	}
 	.navbar > .options {
 		display: none;
 	}
-
+	.containerLeft > .navbar {
+	justify-content: center;
+	padding: 0 15px 0 15px
+}
 	.containerHome {
 		height: auto;
 	}
@@ -214,10 +224,13 @@ a {
 	.containerHome > .containerRight {
 		display: none;
 	}
-
+.addevent{
+	font-family: 'Josefin Sans', sans-serif;
+}
 	.containerLeft > .main {
 		display: block;
 		margin: 0;
+		font-family: 'Josefin Sans', sans-serif;
 	}
 
 	.main > .title {
@@ -231,6 +244,7 @@ a {
 		margin-top: 35px;
 		margin-left: 40px;
 		margin-right: 30px;
+		font-family: 'Poppins';
 	}
 
 	.main > .buttons {
@@ -273,6 +287,8 @@ a {
 		opacity: 1;
 		background-color: #141219;
 		background-image: url('./assets/Images/glassbg.png');
+		display: flex;
+		justify-content: center;
 	}
 }
 
@@ -347,7 +363,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 .containerDesc > .box > img {
@@ -370,14 +386,19 @@ a {
 }
 
 @media (max-width: 920px) {
+	.containerDesc {
+		min-height: auto
+	}
 	.containerDesc > .box > img {
 		width: 320px;
 		height: 76px;
 	}
 
 	.box > .details {
-		font-size: 18px;
-		line-height: 27px;
+		font-size: 25px;
+		line-height: 30px;
+		font-family: 'Poppins';
+		padding: 15px 0;
 	}
 }
 
@@ -462,7 +483,7 @@ a {
 		font-size: 36px;
 
 		color: #d4d4d4;
-		font-family: 'Monument Extended', 'Poppins';
+		font-family: 'Poppins';
 		letter-spacing: 2px;
 	}
 
@@ -478,7 +499,7 @@ a {
 	}
 
 	.containerSpeaker > .tablet > .bottom1 > .text1 {
-		font-family: 'Orbitron', sans-serif;
+		font-family: 'Poppins';
 		letter-spacing: 0.8px;
 		word-spacing: 1px;
 		font-weight: 400;
@@ -489,7 +510,7 @@ a {
 	}
 
 	.containerSpeaker > .tablet > .bottom2 > .text2 {
-		font-family: 'Orbitron', sans-serif;
+		font-family: 'Poppins';
 		letter-spacing: 0.8px;
 		word-spacing: 1px;
 		font-weight: 400;
@@ -563,7 +584,7 @@ a {
 	position: absolute;
 	/* width: 964px; */
 	height: 665.78px;
-	/* left: 274px; */
+	left: 274px;
 	top: 158px;
 }
 
@@ -756,6 +777,7 @@ a {
 	.timeline-header {
 		left: 40px;
 		font-size: 44px;
+		font-family: 'Poppins';
 	}
 
 	.timeline-container-box {
@@ -770,6 +792,7 @@ a {
 
 	.timeline-day-text1 {
 		font-size: 35px;
+		font-family: 'Josefin Sans', sans-serif;
 	}
 
 	.timeline-animation-line {
@@ -794,18 +817,28 @@ a {
 	.timeline-inner-textbox {
 		width: 412.56px;
 		left: 145.44px;
+		
 	}
 
 	.timeline-txet-event {
 		width: 303.79px;
 		left: 57.8px;
-		font-size: 15px;
+		font-size: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+		text-transform: none;
+		line-height: 1.5;
+		letter-spacing: normal;
+	}
+	.timeline-txet-venue {
+		text-transform: capitalize;
 	}
 
 	.timeline-txet-time {
 		/* width: 233.49px; */
 		left: 57.8px;
 		font-size: 12px;
+		/* font-family: 'Poppins'; */
+		font-family: 'Josefin Sans', sans-serif;
 	}
 
 	.active {
@@ -873,7 +906,7 @@ a {
 	}
 
 	.timeline-textbox {
-		height: 81px;
+		height: 90px;
 		left: 138.44px;
 	}
 
@@ -891,8 +924,9 @@ a {
 
 	.timeline-inner-textbox {
 		width: 202.56px;
-		height: 80.98px;
+		height: 89.98px;
 		left: 0px;
+		border-radius: 10px;
 	}
 
 	.timeline-txet-event {
@@ -910,7 +944,7 @@ a {
 
 	.timeline-txet-venue {
 		left: 10px;
-		top: 45px;
+		top: 50px;
 		font-size: 10px;
 	}
 }
@@ -1045,7 +1079,7 @@ a {
 	}
 
 	.containerPartners > .heading {
-		font-family: 'Monument Extended', 'Poppins';
+		font-family:  'Poppins';
 		font-size: 36px;
 		font-weight: 800;
 	}
@@ -1066,7 +1100,7 @@ a {
 	}
 
 	.containerPartners > .heading {
-		font-family: 'Monument Extended', 'Poppins';
+		font-family:  'Poppins';
 		font-size: 26px;
 		font-weight: 800;
 	}
