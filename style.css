@@ -1,7 +1,17 @@
-@import url("http://fonts.cdnfonts.com/css/monument-extended");
-@import url("http://fonts.cdnfonts.com/css/axis");
+/* @import url("http://fonts.cdnfonts.com/css/monument-extended"); */
+/* @import url("http://fonts.cdnfonts.com/css/axis"); */
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap");
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("assets/Fonts/monumentextended/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: "Axis";
+  src: url("assets/Fonts/Axis-Font/Axis\ Extrabold.otf");
+}
 
 * {
   margin: 0;
@@ -107,7 +117,7 @@ a {
 } */
 
 .containerLeft > .main {
-  margin: 0 30px 0 80px;
+  margin: 20px 30px 0 80px;
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -119,7 +129,7 @@ a {
 }
 
 .main > .title {
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 80px;
   /* line-height: 45px; */
   align-items: center;
@@ -183,7 +193,7 @@ a {
 
 .main > .time {
   font-family: "Monument Extended", "Poppins";
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 56px;
   line-height: 115px;
   letter-spacing: 0.085em;
@@ -195,7 +205,7 @@ a {
 
 .containerLeft > .img {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
 }
 
@@ -232,7 +242,7 @@ a {
 
 @media (max-width: 920px) {
   * {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
   }
 
   .navbar > .options {
@@ -416,9 +426,12 @@ a {
   text-align: center;
   color: #ffffff;
   max-width: 87%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Orbitron", sans-serif;
   letter-spacing: 0.8px;
   word-spacing: 1px;
+}
+.box > .details>div{
+  margin-top: 10px;
 }
 
 @media (max-width: 920px) {
@@ -434,7 +447,8 @@ a {
   .box > .details {
     font-size: 25px;
     line-height: 30px;
-    font-family: "Poppins";
+    font-family: "Orbitron", sans-serif;
+    /* font-family: "Poppins"; */
     padding: 15px 0;
   }
 }
@@ -465,9 +479,8 @@ a {
 }
 
 .containerSpeaker > .desktop > .heading {
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 56px;
-
   color: #d4d4d4;
   font-family: "Monument Extended", "Poppins";
   letter-spacing: 2px;
@@ -520,7 +533,6 @@ a {
     font-size: 36px;
 
     color: #d4d4d4;
-    font-family: "Poppins";
     letter-spacing: 2px;
     margin-left: 20%;
   }
@@ -546,7 +558,8 @@ a {
   }
 
   .containerSpeaker > .tablet > .bottom1 > .text1 {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
+    font-family: "Orbitron", sans-serif;
     letter-spacing: 0.8px;
     word-spacing: 1px;
     font-weight: 400;
@@ -557,7 +570,8 @@ a {
   }
 
   .containerSpeaker > .tablet > .bottom2 > .text2 {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
+    font-family: "Orbitron", sans-serif;
     letter-spacing: 0.8px;
     word-spacing: 1px;
     font-weight: 400;
@@ -593,6 +607,12 @@ a {
     font-size: 12px;
     margin-right: 18px;
   }
+  .faq-title{
+    font-size: 14px;
+  }
+  .faq-text{
+    font-size: 12px;
+  }
 }
 
 /* ------------------------------ */
@@ -616,7 +636,7 @@ a {
 
   font-family: "Monument Extended", "Poppins";
   font-style: normal;
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 56px;
 
   /* identical to box height, or 111% */
@@ -781,7 +801,7 @@ a {
 
   font-family: "Monument Extended", "Poppins";
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
 
   /* or 388% */
@@ -801,7 +821,7 @@ a {
 
   font-family: "Monument Extended", "Poppins";
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
 
   /* or 388% */
@@ -825,7 +845,7 @@ a {
   .timeline-header {
     left: 40px;
     font-size: 44px;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
   }
 
   .timeline-container-box {
@@ -1091,7 +1111,7 @@ a {
 .containerPartners > .heading {
   font-family: "Monument Extended", "Poppins";
   letter-spacing: 2px;
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 56px;
 
   color: #d4d4d4;
@@ -1131,7 +1151,7 @@ a {
   }
 
   .containerPartners > .heading {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     font-size: 36px;
     font-weight: 800;
   }
@@ -1152,7 +1172,7 @@ a {
   }
 
   .containerPartners > .heading {
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     font-size: 26px;
     font-weight: 800;
   }
@@ -1175,7 +1195,7 @@ a {
 h1 {
   font-family: "Monument Extended", "Poppins";
   font-style: normal;
-  font-weight: 900;
+  /* font-weight: 900; */
   font-size: 56px;
   line-height: 129.535714%;
   /* or 84px */
@@ -1421,7 +1441,7 @@ h1 {
 
 .links p {
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 18px;
   line-height: 27px;
 
