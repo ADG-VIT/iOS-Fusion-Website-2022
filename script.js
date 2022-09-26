@@ -55,16 +55,18 @@ top.onscroll = function () {
 function myFunction() {
 	if (top.scrollY > 2350) {
 		document.getElementById('active').className = 'timeline-inner-textbox';
-		document.getElementById('child1').className =
-			'timeline-inner-textbox active';
+		document.getElementById('child1').className = 'timeline-inner-textbox active';
 		document.getElementById('timeline-elipse').style.top = '260px';
 		document.getElementById('timeline-scroll').style.height = '206.2px';
-		if (top.scrollY >= 2400) {
+		document.getElementById('text-timeline1').style.top = '180px';
+		if (top.scrollY >= 2500) {
 			document.getElementById('child2').className =
 				'timeline-inner-textbox active';
 			document.getElementById('child1').className = 'timeline-inner-textbox';
 			document.getElementById('timeline-elipse').style.top = '470px';
 			document.getElementById('timeline-scroll').style.height = '416.2px';
+			document.getElementById('text-timeline1').style.top = '285px';
+			document.getElementById('text-timeline2').style.top = '400px';
 		}
 		if (top.scrollY > 2650) {
 			document.getElementById('child3').className =
@@ -72,71 +74,66 @@ function myFunction() {
 			document.getElementById('child2').className = 'timeline-inner-textbox';
 			document.getElementById('timeline-elipse').style.top = '650px';
 			document.getElementById('timeline-scroll').style.height = '596.2px';
+			document.getElementById('text-timeline2').style.top = '580px';
 		}
 		if (top.scrollY < 2650) {
-			document.getElementById('child2').className =
-				'timeline-inner-textbox active';
+			document.getElementById('child2').className = 'timeline-inner-textbox active';
 			document.getElementById('child3').className = 'timeline-inner-textbox';
 			document.getElementById('timeline-elipse').style.top = '470px';
 			document.getElementById('timeline-scroll').style.height = '416.2px';
 		}
 	}
-	if (top.scrollY < 2400) {
-		document.getElementById('child1').className =
-			'timeline-inner-textbox active';
-		document.getElementById('child2').className = 'timeline-inner-textbox';
-		document.getElementById('timeline-elipse').style.top = '260px';
-		document.getElementById('timeline-scroll').style.height = '206.2px';
+	if (top.scrollY < 2500) {
+		document.getElementById('child1').className ='timeline-inner-textbox active';
+		document.getElementById('child2').className ='timeline-inner-textbox';
+		document.getElementById('timeline-elipse').style.top ='260px';
+		document.getElementById('timeline-scroll').style.height ='206.2px';
+		document.getElementById('text-timeline1').style.top = '180px';
+			document.getElementById('text-timeline2').style.top = '350px';
 	}
 	if (top.scrollY < 2350) {
 		document.getElementById('child1').className = 'timeline-inner-textbox';
-		document.getElementById('active').className =
-			'timeline-inner-textbox active';
+		document.getElementById('active').className = 'timeline-inner-textbox active';
 		document.getElementById('timeline-elipse').style.top = '80px';
 		document.getElementById('timeline-scroll').style.height = '26.2px';
+		document.getElementById('text-timeline1').style.top = '0px';
 	}
 
 
 	if (responsi.matches) {
 		if (top.scrollY > 4300) {
 			document.getElementById('active').className = 'timeline-inner-textbox';
-			document.getElementById('child1').className =
-				'timeline-inner-textbox active';
+			document.getElementById('child1').className = 'timeline-inner-textbox active';
 			document.getElementById('timeline-elipse').style.top = '260px';
 			document.getElementById('timeline-scroll').style.height = '206.2px';
 			if (top.scrollY >= 4400) {
-				document.getElementById('child2').className =
-					'timeline-inner-textbox active';
+				document.getElementById('child2').className = 'timeline-inner-textbox active';
 				document.getElementById('child1').className = 'timeline-inner-textbox';
 				document.getElementById('timeline-elipse').style.top = '470px';
 				document.getElementById('timeline-scroll').style.height = '416.2px';
 			}
-			if (top.scrollY >4550) {
-				document.getElementById('child3').className =
-					'timeline-inner-textbox active';
+			if (top.scrollY > 4550) {
+				document.getElementById('child3').className = 'timeline-inner-textbox active';
 				document.getElementById('child2').className = 'timeline-inner-textbox';
 				document.getElementById('timeline-elipse').style.top = '650px';
 				document.getElementById('timeline-scroll').style.height = '596.2px';
 			}
 			if (top.scrollY < 4550) {
-				document.getElementById('child2').className =
-					'timeline-inner-textbox active';
+				document.getElementById('child2').className ='timeline-inner-textbox active';
 				document.getElementById('child3').className = 'timeline-inner-textbox';
 				document.getElementById('timeline-elipse').style.top = '470px';
 				document.getElementById('timeline-scroll').style.height = '416.2px';
 			}
 		}
 		if (top.scrollY < 4400) {
-			document.getElementById('child1').className =
-				'timeline-inner-textbox active';
+			document.getElementById('child1').className = 'timeline-inner-textbox active';
 			document.getElementById('child2').className = 'timeline-inner-textbox';
 			document.getElementById('timeline-elipse').style.top = '260px';
 			document.getElementById('timeline-scroll').style.height = '206.2px';
 		}
 		if (top.scrollY < 4300) {
 			document.getElementById('child1').className = 'timeline-inner-textbox';
-			document.getElementById('active').className =
-				'timeline-inner-textbox active';
+			document.getElementById('active').className = 'timeline-inner-textbox active';
 			document.getElementById('timeline-elipse').style.top = '80px';
 			document.getElementById('timeline-scroll').style.height = '26.2px';
 		}
@@ -146,10 +143,10 @@ function myFunction() {
 	if (responsive.matches) {
 		if (top.scrollY > 2600) {
 			document.getElementById('active').className = 'timeline-inner-textbox';
-			document.getElementById('child1').className =
-				'timeline-inner-textbox active';
+			document.getElementById('child1').className = 'timeline-inner-textbox active';
 			document.getElementById('timeline-elipse').style.top = '200px';
-			document.getElementById('timeline-scroll').style.height = '131.2px';
+		document.getElementById('text-timeline1').style.top = '85px';
+		document.getElementById('timeline-scroll').style.height = '131.2px';
 			if (top.scrollY > 2700) {
 				document.getElementById('child2').className =
 					'timeline-inner-textbox active';
@@ -157,20 +154,19 @@ function myFunction() {
 					'timeline-inner-textbox';
 				document.getElementById('timeline-elipse').style.top = '320px';
 				document.getElementById('timeline-scroll').style.height = '251.2px';
+				document.getElementById('text-timeline1').style.top = '135px';
+			document.getElementById('text-timeline2').style.top = '200px';
 			}
 			if (top.scrollY > 2850) {
-				document.getElementById('child3').className =
-					'timeline-inner-textbox active';
-				document.getElementById('child2').className =
-					'timeline-inner-textbox';
+				document.getElementById('child3').className ='timeline-inner-textbox active';
+				document.getElementById('child2').className ='timeline-inner-textbox';
 				document.getElementById('timeline-elipse').style.top = '420px';
 				document.getElementById('timeline-scroll').style.height = '351.2px';
+			document.getElementById('text-timeline2').style.top = '300px';
 			}
 			if (top.scrollY < 2850) {
-				document.getElementById('child2').className =
-					'timeline-inner-textbox active';
-				document.getElementById('child3').className =
-					'timeline-inner-textbox';
+				document.getElementById('child2').className ='timeline-inner-textbox active';
+				document.getElementById('child3').className ='timeline-inner-textbox';
 				document.getElementById('timeline-elipse').style.top = '320px';
 				document.getElementById('timeline-scroll').style.height = '251.2px';
 			}
@@ -181,6 +177,8 @@ function myFunction() {
 			document.getElementById('child2').className = 'timeline-inner-textbox';
 			document.getElementById('timeline-elipse').style.top = '200px';
 			document.getElementById('timeline-scroll').style.height = '131.2px';
+			document.getElementById('text-timeline1').style.top = '85px';
+			document.getElementById('text-timeline2').style.top = '170px';
 		}
 		if (top.scrollY < 2600) {
 			document.getElementById('child1').className = 'timeline-inner-textbox';
@@ -188,6 +186,7 @@ function myFunction() {
 				'timeline-inner-textbox active';
 			document.getElementById('timeline-elipse').style.top = '80px';
 			document.getElementById('timeline-scroll').style.height = '11.2px';
+			document.getElementById('text-timeline1').style.top = '-30px';
 		}
 	}
 	if (responsiv.matches) {
@@ -237,7 +236,7 @@ function myFunction() {
 			document.getElementById('timeline-scroll').style.height = '11.2px';
 		}
 	}
-	
+
 }
 
 myFunction(responsive); // Call listener function at run time
